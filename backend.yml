@@ -1,0 +1,5 @@
+- name: Configuring backend server
+  hosts: app
+  become: yes
+  roles:
+  - frontend

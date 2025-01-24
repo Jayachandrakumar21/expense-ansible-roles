@@ -1,0 +1,5 @@
+vars:
+  user: root
+  password: ExpenseApp@1
+  host: mysql.simplifysuccess.life
+  path: /app/schema/backend.sql
