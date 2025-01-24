@@ -54,10 +54,10 @@
   community.mysql.mysql_db:
     state: import
     name: all
-    login_user: root #"{{ mysql_user }}"
+    login_user: "{{ mysql_user }}"
     login_password: "{{ mysql_password }}"
     login_host: "{{ mysql_host }}"
-    target: "{{ target_path }}"
+    target: /app/schema/backend.sql
 
 - name: deamon reload and restart
   ansible.builtin.systemd_service:
