@@ -50,7 +50,7 @@
   - PyMySQL
   - cryptography
 
-- name: mysql schema setup
+- name: mysql_schema setup
   community.mysql.mysql_db:
     state: import
     name: all
