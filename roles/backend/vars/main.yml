@@ -1,5 +1,5 @@
 vars:
-  user: root
-  password: ExpenseApp@1
-  host: mysql.simplifysuccess.life
-  path: /app/schema/backend.sql
+  mysql_user: root
+  mysql_password: ExpenseApp@1
+  mysql_host: mysql.simplifysuccess.life
+  target_path: /app/schema/backend.sql
