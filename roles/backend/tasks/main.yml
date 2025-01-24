@@ -54,7 +54,7 @@
   community.mysql.mysql_db:
     state: import
     name: all
-    login_user: "{{ mysql_user }}"
+    login_user: root #"{{ mysql_user }}"
     login_password: "{{ mysql_password }}"
     login_host: "{{ mysql_host }}"
     target: "{{ target_path }}"
