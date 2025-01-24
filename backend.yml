@@ -2,4 +2,4 @@
   hosts: app
   become: yes
   roles:
-  - frontend
+  - backend
