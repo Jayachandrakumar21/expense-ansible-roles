@@ -1,4 +1,6 @@
 mysql_user: root
 mysql_password: ExpenseApp@1
 mysql_host: mysql.simplifysuccess.life
+app_location: /app
+component: backend
 # target_path: /app/schema/backend.sql
