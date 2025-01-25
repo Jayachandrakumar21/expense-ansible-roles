@@ -9,6 +9,10 @@
     state: started
     enabled: yes
 
+- name: Include common role
+  include_role:
+    name: common
+
 # - name: Delete html directory
 #   ansible.builtin.file:
 #     path: /usr/share/nginx/html
